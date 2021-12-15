@@ -53,6 +53,9 @@ gain hotspots, Forest change, forest fires and the Mediterranean Desertification
    Background/SDG_indicators
    Background/vegetationloss
    Background/Forest_change
+   Background/winderosion
+   Background/coastalerosion
+
 
 .. toctree::
    :maxdepth: 3
