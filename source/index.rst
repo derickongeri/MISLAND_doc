@@ -63,6 +63,8 @@ gain hotspots, Forest change, forest fires and the Mediterranean Desertification
    Service/Calculate_vegetationloss
    Service/Calculate_Forestloss
    Service/Calculate_Medalus
+   Service/Calculate_erosion
+   Service/Calculate_coastal
    Service/Download_results
    Service/Download_data
 

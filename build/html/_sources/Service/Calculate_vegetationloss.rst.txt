@@ -85,3 +85,9 @@ The map and computed statistics will be displayed on the map panel and summary p
 
 .. toctree::
    :maxdepth: 3
+
+
+.. |advancedparams| image:: ../_static/Images/Service/advanceparams.png
+.. |submit| image:: ../_static/Images/Service/submit.png
+.. |veglossbutton| image:: ../_static/Images/Service/veglossbutton.png
+.. |veglossicon| image:: ../_static/Images/Service/veglossicon.png
