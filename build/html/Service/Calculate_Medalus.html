@@ -18,7 +18,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Soil Erosion" href="Calculate_erosion.html" />
+    <link rel="next" title="Compute Wind and Water Erosion" href="Calculate_erosion.html" />
     <link rel="prev" title="Calculate Forest Change" href="Calculate_Forestloss.html" /> 
 </head>
 
@@ -191,6 +191,23 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../Background/winderosion.html">Wind and Water Erosion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Background/winderosion.html#wind-erosion">Wind Erosion</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Background/winderosion.html#climate-erosivity">Climate erosivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Background/winderosion.html#erodible-factor">Erodible Factor</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Background/winderosion.html#water-erosion">Water Erosion</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Background/coastalerosion.html">Coastal Erosion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Background/coastalerosion.html#coastal-vulnerability-index">Coastal Vulnerability Index</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Web Service Guide</span></p>
 <ul class="current">
@@ -223,13 +240,12 @@
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Calculating Sensitivity to Desertification (MEDALUS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#calculating-individual-quality-indicators">Calculating Individual Quality Indicators</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#calculate-the-environmental-sensitivity-areas-index-esai">Calculate the Environmental Sensitivity Areas Index(ESAI)</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="#calculating-individual-quality-indicators">Calculating Individual Quality Indicators</a><ul class="simple">
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="Calculate_erosion.html">Soil Erosion</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="Calculate_erosion.html">Compute Wind and Water Erosion</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="Calculate_erosion.html#calculate-wind-erosion">Calculate Wind Erosion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Calculate_erosion.html#calculate-water-erosion">Calculate Water Erosion</a><ul class="simple">
 </ul>
@@ -418,38 +434,20 @@
 </div>
 <p>To compute the individual quality indicators(Soil quality, SQI; vegetation quality, VQI; climate quality, CQI; and management quality, MQI), Follow the following simple steps:</p>
 <ol class="arabic simple">
-<li><p>On the service menu-bar select the MEDALUS option as shown below:</p></li>
-</ol>
-<figure class="align-center" id="id1">
-<a class="reference internal image-reference" href="../_images/medalus1.png"><img alt="Medalus" src="../_images/medalus1.png" style="width: 554px; height: 194px;" /></a>
-<figcaption>
-<p><span class="caption-text">Selecting the MEDALUS option from the service Menu</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
-</figcaption>
-</figure>
-<ol class="arabic simple" start="2">
+<li><p>On the service menu-bar select the <img alt="deserticon" src="../_images/deserticon.png" /> option and click on the <img alt="medalusbtn" src="../_images/medalusbtn.png" /> for the layer settings pop-up to appear.</p></li>
 <li><p>On the layer settings options select the Quality index to compute from the dropdown list and the year you wish to compute:</p></li>
 </ol>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/medalus1.png"><img alt="Medalus" src="../_images/medalus1.png" style="width: 259px; height: 346px;" /></a>
+<figcaption>
+<p><span class="caption-text">Selecting the Quality index to compute form the dropdown list</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>Click on the <img alt="submit" src="../_images/submit.png" /> button and the resultant layer and statistics will be computed and visualized as shown</p>
 <figure class="align-center" id="id2">
-<a class="reference internal image-reference" href="../_images/medalus2.png"><img alt="Medalus" src="../_images/medalus2.png" style="width: 554px; height: 194px;" /></a>
+<a class="reference internal image-reference" href="../_images/medalus2.png"><img alt="Medalus" src="../_images/medalus2.png" style="width: 700px; height: 340px;" /></a>
 <figcaption>
-<p><span class="caption-text">Selecting the Quality index to compute form the dropdown list</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
-</figcaption>
-</figure>
-<p>The resultant layer and statistics will be computed and visualized as shown</p>
-<figure class="align-center" id="id3">
-<a class="reference internal image-reference" href="../_images/medalus3.png"><img alt="Medalus" src="../_images/medalus3.png" style="width: 700px; height: 340px;" /></a>
-<figcaption>
-<p><span class="caption-text">Results for SQI computation</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
-</figcaption>
-</figure>
-</section>
-<section id="calculate-the-environmental-sensitivity-areas-index-esai">
-<h2>Calculate the Environmental Sensitivity Areas Index(ESAI)<a class="headerlink" href="#calculate-the-environmental-sensitivity-areas-index-esai" title="Permalink to this headline"></a></h2>
-<p>To coumpute the Environmental Sensitivity Index select MEDALUS option from the service menu. On the layers selection option dropdown, selsect the ESAI option as shown below</p>
-<figure class="align-center" id="id4">
-<a class="reference internal image-reference" href="../_images/medalus4.png"><img alt="Medalus" src="../_images/medalus4.png" style="width: 628px; height: 330px;" /></a>
-<figcaption>
-<p><span class="caption-text">Selecting the ESAI option from the layer selection dropdown</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Results for SQI computation</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <div class="toctree-wrapper compound">
@@ -462,7 +460,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="Calculate_Forestloss.html" class="btn btn-neutral float-left" title="Calculate Forest Change" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="Calculate_erosion.html" class="btn btn-neutral float-right" title="Soil Erosion" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Calculate_erosion.html" class="btn btn-neutral float-right" title="Compute Wind and Water Erosion" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
