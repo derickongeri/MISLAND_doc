@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Forest Change &mdash; Monitoring Integrated Service for Land Degradation 1.0.0 documentation</title>
+  <title>Coastal Erosion &mdash; Monitoring Integrated Service for Land Degradation 1.0.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -17,7 +17,9 @@
         <script src="../_static/doctools.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Serivice Guide" href="../Service/Service_Guide.html" />
+    <link rel="prev" title="Wind and Water Erosion" href="winderosion.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -142,7 +144,7 @@
 </li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Background</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="LD_indicators.html">Land Degradation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="LD_indicators.html#land-degradation-indicators">Land Degradation Indicators</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="LD_indicators.html#sdg15-3-1-indicator">SDG15.3.1 Indicator</a><ul>
@@ -185,6 +187,23 @@
 <li class="toctree-l2"><a class="reference internal" href="Forest_change.html#forest-carbon-emission">Forest Carbon Emission</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Forest_change.html#forest-fire-risk">Forest Fire Risk</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Forest_change.html#forest-fires">Forest Fires</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="winderosion.html">Wind and Water Erosion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="winderosion.html#wind-erosion">Wind Erosion</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="winderosion.html#climate-erosivity">Climate erosivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="winderosion.html#erodible-factor">Erodible Factor</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="winderosion.html#water-erosion">Water Erosion</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Coastal Erosion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#coastal-vulnerability-index">Coastal Vulnerability Index</a><ul class="simple">
 </ul>
 </li>
 </ul>
@@ -395,7 +414,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Forest Change</li>
+      <li>Coastal Erosion</li>
 
   </ul>
   <hr/>
@@ -403,31 +422,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="forest-change">
-<h1>Forest Change<a class="headerlink" href="#forest-change" title="Permalink to this headline"></a></h1>
-<section id="forest-gain-loss">
-<h2>Forest Gain/Loss<a class="headerlink" href="#forest-gain-loss" title="Permalink to this headline"></a></h2>
-<p>The quantification of the forest gain/loss hotspots will be based on pre-existing high-resolution global maps derived from Hansen Global Forest change dataset that can be accessed using <a class="reference external" href="https://earthenginepartners.appspot.com/science-2013-global-forest">Google Earth Engine API</a>.</p>
-<blockquote>
-<div></div></blockquote>
-<p>The maps are produced from time-series analysis of Landsat images characterizing forest extent and change over time.</p>
-</section>
-<section id="forest-carbon-emission">
-<h2>Forest Carbon Emission<a class="headerlink" href="#forest-carbon-emission" title="Permalink to this headline"></a></h2>
-</section>
-<section id="forest-fire-risk">
-<h2>Forest Fire Risk<a class="headerlink" href="#forest-fire-risk" title="Permalink to this headline"></a></h2>
-</section>
-<section id="forest-fires">
-<h2>Forest Fires<a class="headerlink" href="#forest-fires" title="Permalink to this headline"></a></h2>
-<p>Burnt areas and forest fires will be highlighted and mapped out form remotely sensed Landsat/Sentinel data using the Normalized Burn Ratio (NBR). NBR is designed to highlight burned areas and estimate burn severity. It uses near-infrared (NIR) and shortwave-infrared (SWIR) wavelengths. Before fire events, healthy vegetation has very high NIR reflectance and a low SWIR reflectance. In contrast, recently burned areas show low reflectance in the NIR and high reflectance in the SWIR band.</p>
-<p>The NBR will be calculated for Landsat/Sentinel images before the fire (pre-fire NBR) and after the fire (post-fire NBR). The difference between the pre-fire NBR and the post-fire NBR referred to as delta NBR (dNBR) is computed to highlight the areas of forest disturbance by fire event.</p>
-<p>Classification of the dNBR will be used for burn severity assessment, as areas with higher dNBR values indicate more severe damage whereas areas with negative dNBR values might show increased vegetation productivity. dNBR will be classified according to burn severity ranges proposed by the United States Geological Survey(USGS)</p>
-<figure class="align-center" id="id1">
-<a class="reference internal image-reference" href="../_images/Forest_fires.png"><img alt="Forest fires methodology" src="../_images/Forest_fires.png" style="width: 700px; height: 500px;" /></a>
-<figcaption>
-<p><span class="caption-text">Sammury methodology for conputing Burnt Areas</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
-</figcaption>
+  <section id="coastal-erosion">
+<h1>Coastal Erosion<a class="headerlink" href="#coastal-erosion" title="Permalink to this headline"></a></h1>
+<section id="coastal-vulnerability-index">
+<h2>Coastal Vulnerability Index<a class="headerlink" href="#coastal-vulnerability-index" title="Permalink to this headline"></a></h2>
+<p>The coastal vulnerability index (C.V.I.) presented here is similar to that used by Gornitz et al. (1994), as well as to the sensitivity index employed by Shaw et al. (1998). The index allows the six physical variables to be related in a quantifiable manner that expresses the relative vulnerability of the coast to physical changes due to sea-level rise. This method yields numerical data that cannot be equated directly with particular physical effects. It does, however, highlight those regions where the various effects of sea-level rise might be the greatest.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/cvi.png"><img alt="combining all indicators" src="../_images/cvi.png" style="width: 770px; height: 393px;" /></a>
 </figure>
 <div class="toctree-wrapper compound">
 </div>
@@ -437,7 +438,10 @@
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="winderosion.html" class="btn btn-neutral float-left" title="Wind and Water Erosion" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../Service/Service_Guide.html" class="btn btn-neutral float-right" title="Serivice Guide" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 

@@ -11,7 +11,7 @@ Land degradation, as defined by the United Nations Convention to Combat Desertif
 
 Different land masses are however affected by different factors at different levels. The factors pan from the climatic to soil properties, from land use land cover and to surface roughness which depends on the conditions that a given land mass is exposed to. Apart from the natural and geophysical causes, land degradation may also be influenced by anthropogenic factors which yield conditions for land degradation to take place, these activities may span from uncouth agricultural practices, desertification through illegal logging, top soil harvesting, mining activities among others.
 
-The OSS.LDMS focuses on provision of evidence-based proofs on land degradation and its spatiotemporal distribution and therefore the hotspots where priority actions should be taken or awareness-raising campaigns should be planed. The figure below show key land degradation indicators included in the OSS.LDMS service
+MISLAND service focuses on provision of evidence-based proofs on land degradation and its spatiotemporal distribution and therefore the hotspots where priority actions should be taken or awareness-raising campaigns should be planed. The figure below show key land degradation indicators included in the OSS.LDMS service
 
 .. figure:: ../_static/Images/service.png
     :width: 351
