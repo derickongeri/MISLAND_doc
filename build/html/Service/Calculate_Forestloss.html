@@ -191,6 +191,23 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../Background/winderosion.html">Wind and Water Erosion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Background/winderosion.html#wind-erosion">Wind Erosion</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Background/winderosion.html#climate-erosivity">Climate erosivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Background/winderosion.html#erodible-factor">Erodible Factor</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Background/winderosion.html#water-erosion">Water Erosion</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Background/coastalerosion.html">Coastal Erosion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Background/coastalerosion.html#coastal-vulnerability-index">Coastal Vulnerability Index</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Web Service Guide</span></p>
 <ul class="current">
@@ -217,19 +234,20 @@
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Calculate Forest Change</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#computing-forest-loss">Computing Forest Loss</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#forest-carbon-emission">Forest Carbon Emission</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#forest-fire-risk">Forest Fire Risk</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#computing-forest-fires">Computing Forest Fires</a><ul class="simple">
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="Calculate_Medalus.html">Calculating Sensitivity to Desertification (MEDALUS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Calculate_Medalus.html#calculating-individual-quality-indicators">Calculating Individual Quality Indicators</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Calculate_Medalus.html#calculate-the-environmental-sensitivity-areas-index-esai">Calculate the Environmental Sensitivity Areas Index(ESAI)</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="Calculate_Medalus.html#calculating-individual-quality-indicators">Calculating Individual Quality Indicators</a><ul class="simple">
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="Calculate_erosion.html">Soil Erosion</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="Calculate_erosion.html">Compute Wind and Water Erosion</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="Calculate_erosion.html#calculate-wind-erosion">Calculate Wind Erosion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Calculate_erosion.html#calculate-water-erosion">Calculate Water Erosion</a><ul class="simple">
 </ul>
@@ -415,77 +433,79 @@
 </div>
 <p>To compute forest loss using the Hansen Global forest change dataset;</p>
 <ol class="arabic simple">
-<li><p>On the top left conner of the Map pannel, click on the ‘Draw a Polygon’ tool and draw an area on the map where you wish to compute the forest loss</p></li>
+<li><p>On the top left conner of the Map pannel, click on the <img alt="drowpolygon" src="../_images/drawpolygon.png" /> ‘Draw a Polygon’ tool and draw an area on the map where you wish to compute the forest loss</p></li>
 </ol>
 <figure class="align-center" id="id1">
-<a class="reference internal image-reference" href="../_images/draw.png"><img alt="draw polygon" src="../_images/draw.png" style="width: 345px; height: 349px;" /></a>
+<a class="reference internal image-reference" href="../_images/drawarea.png"><img alt="draw polygon" src="../_images/drawarea.png" style="width: 758px; height: 600px;" /></a>
 <figcaption>
 <p><span class="caption-text">Draw a polygon tool</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
-<figure class="align-center" id="id2">
-<a class="reference internal image-reference" href="../_images/drawarea.png"><img alt="draw polygon" src="../_images/drawarea.png" style="width: 345px; height: 349px;" /></a>
-<figcaption>
-<p><span class="caption-text">Draw a polygon tool</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
-</figcaption>
-</figure>
 <ol class="arabic simple" start="2">
-<li><p>Select FOREST CHANGE on the service menu bar and under the ‘Source dropdown’ options, choose ‘Hansen’ and select the year you wish to compute the forest loss.</p></li>
+<li><p>Select <img alt="forestloss" src="../_images/forestlossbtn.png" /> option from the <img alt="forest1" src="../_images/forest1.png" /> service indicator menu-bar, choose ‘Hansen’ and select the year you wish to compute the forest loss from th pop-up that appears.</p></li>
 </ol>
-<figure class="align-center" id="id3">
-<a class="reference internal image-reference" href="../_images/Hansen.png"><img alt="Hansen" src="../_images/Hansen.png" style="width: 400px; height: 397px;" /></a>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/forestloss1.png"><img alt="Hansen" src="../_images/forestloss1.png" style="width: 217px; height: 196px;" /></a>
 <figcaption>
-<p><span class="caption-text">Selecting the Hansen Forest loss data</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Selecting the Hansen Forest loss data</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <p>The map and computed statistics will be displayed on the map panel and summary pannel respectively.</p>
-<figure class="align-center" id="id4">
-<a class="reference internal image-reference" href="../_images/hansenoutput.png"><img alt="register" src="../_images/hansenoutput.png" style="width: 705px; height: 325px;" /></a>
+</section>
+<section id="forest-carbon-emission">
+<h2>Forest Carbon Emission<a class="headerlink" href="#forest-carbon-emission" title="Permalink to this headline"></a></h2>
+<blockquote>
+<div><p>Select <img alt="carbonbtn" src="../_images/carbonbtn.png" /> option from the <img alt="forest1" src="../_images/forest1.png" /> service indicator menu-bar fill in the parameters required and clck on the <img alt="submit" src="../_images/submit.png" /> button</p>
+</div></blockquote>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/carbon1.png"><img alt="Forest carbon emission" src="../_images/carbon1.png" style="width: 253px; height: 445px;" /></a>
 <figcaption>
-<p><span class="caption-text">Foret change outputs</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Forest carbon emission pop-up</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="forest-fire-risk">
+<h2>Forest Fire Risk<a class="headerlink" href="#forest-fire-risk" title="Permalink to this headline"></a></h2>
+<p>Select <img alt="fireriskbtn" src="../_images/fireriskbtn.png" /> option from the <img alt="forest1" src="../_images/forest1.png" /> service indicator menu-bar fill in the parameters required and clck on the <img alt="submit" src="../_images/submit.png" /> button</p>
+<figure class="align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/firerisk1.png"><img alt="Forest carbon emission" src="../_images/firerisk1.png" style="width: 253px; height: 445px;" /></a>
+<figcaption>
+<p><span class="caption-text">Forest carbon emission pop-up</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 </section>
 <section id="computing-forest-fires">
 <h2>Computing Forest Fires<a class="headerlink" href="#computing-forest-fires" title="Permalink to this headline"></a></h2>
 <ol class="arabic simple">
-<li><p>Select the FOREST FIRES option from the service menu as shown below</p></li>
+<li><p>Select the <img alt="firebtn" src="../_images/firebtn.png" /> option from the <img alt="forest1" src="../_images/forest1.png" /> service indicator menu-bar</p></li>
+<li><p>On the layer options, select the pre and post fire dates using the calender</p></li>
 </ol>
 <figure class="align-center" id="id5">
-<a class="reference internal image-reference" href="../_images/forestfireselection.png"><img alt="register" src="../_images/forestfireselection.png" style="width: 449px; height: 47px;" /></a>
+<a class="reference internal image-reference" href="../_images/calender.png"><img alt="seting the pre- and post-fire dates" src="../_images/calender.png" style="width: 233px; height: 358px;" /></a>
 <figcaption>
-<p><span class="caption-text">Selecting the Forest-fires option from the service menu.</span><a class="headerlink" href="#id5" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Selecting the date from the calender tool.</span><a class="headerlink" href="#id5" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
-<ol class="arabic simple" start="2">
-<li><p>On the output layer options, select the pre and post fire dates using the calender</p></li>
-</ol>
 <figure class="align-center" id="id6">
-<a class="reference internal image-reference" href="../_images/calender.png"><img alt="seting the pre- and post-fire dates" src="../_images/calender.png" style="width: 435px; height: 475px;" /></a>
+<a class="reference internal image-reference" href="../_images/fire2.png"><img alt="register" src="../_images/fire2.png" style="width: 235px; height: 282px;" /></a>
 <figcaption>
-<p><span class="caption-text">Selecting the date from the calender tool.</span><a class="headerlink" href="#id6" title="Permalink to this image"></a></p>
-</figcaption>
-</figure>
-<figure class="align-center" id="id7">
-<a class="reference internal image-reference" href="../_images/firedates.png"><img alt="register" src="../_images/firedates.png" style="width: 438px; height: 156px;" /></a>
-<figcaption>
-<p><span class="caption-text">Pre-fire and Post-fire dates</span><a class="headerlink" href="#id7" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Pre-fire and Post-fire dates</span><a class="headerlink" href="#id6" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <ol class="arabic simple" start="3">
 <li><p>Choose the platform to use to compute the burnt area</p></li>
 </ol>
-<figure class="align-center" id="id8">
-<a class="reference internal image-reference" href="../_images/platform.png"><img alt="register" src="../_images/platform.png" style="width: 229px; height: 216px;" /></a>
+<figure class="align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/platform.png"><img alt="register" src="../_images/platform.png" style="width: 235px; height: 328px;" /></a>
 <figcaption>
-<p><span class="caption-text">Choosing the Platform/Sensor for computing forest fires.</span><a class="headerlink" href="#id8" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Choosing the Platform/Sensor for computing forest fires.</span><a class="headerlink" href="#id7" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <p>The output showing the extent and severity of the fire will be as shown below</p>
-<figure class="align-center" id="id9">
+<figure class="align-center" id="id8">
 <a class="reference internal image-reference" href="../_images/fireoutput.png"><img alt="register" src="../_images/fireoutput.png" style="width: 793px; height: 406px;" /></a>
 <figcaption>
-<p><span class="caption-text">Forest-fire Output.</span><a class="headerlink" href="#id9" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Forest-fire Output.</span><a class="headerlink" href="#id8" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <div class="toctree-wrapper compound">

@@ -9,32 +9,23 @@ _______________________
 
 To compute forest loss using the Hansen Global forest change dataset;
 
-1. On the top left conner of the Map pannel, click on the 'Draw a Polygon' tool and draw an area on the map where you wish to compute the forest loss
-
-.. figure:: ../_static/Images/Service/draw.png
-    :width: 345
-    :align: center
-    :height: 349
-    :alt: draw polygon
-    :figclass: align-center
-
-    Draw a polygon tool
+1. On the top left conner of the Map pannel, click on the |drowpolygon| 'Draw a Polygon' tool and draw an area on the map where you wish to compute the forest loss
 
 .. figure:: ../_static/Images/Service/drawarea.png
-    :width: 345
+    :width: 758
     :align: center
-    :height: 349
+    :height: 600
     :alt: draw polygon
     :figclass: align-center
 
     Draw a polygon tool
 
-2. Select FOREST CHANGE on the service menu bar and under the 'Source dropdown' options, choose 'Hansen' and select the year you wish to compute the forest loss.
+2. Select |forestloss| option from the |forest1| service indicator menu-bar, choose 'Hansen' and select the year you wish to compute the forest loss from th pop-up that appears.
 
-.. figure:: ../_static/Images/Service/Hansen.png
-    :width: 400
+.. figure:: ../_static/Images/Service/forestloss1.png
+    :width: 217
     :align: center
-    :height: 397
+    :height: 196
     :alt: Hansen
     :figclass: align-center
 
@@ -42,44 +33,54 @@ To compute forest loss using the Hansen Global forest change dataset;
 
 The map and computed statistics will be displayed on the map panel and summary pannel respectively.
 
-.. figure:: ../_static/Images/Service/hansenoutput.png
-    :width: 705
+
+Forest Carbon Emission
+_______________________
+ Select |carbonbtn| option from the |forest1| service indicator menu-bar fill in the parameters required and clck on the |submit| button
+
+.. figure:: ../_static/Images/Service/carbon1.png
+    :width: 253
     :align: center
-    :height: 325
-    :alt: register
+    :height: 445
+    :alt: Forest carbon emission
     :figclass: align-center
 
-    Foret change outputs
+    Forest carbon emission pop-up
+
+Forest Fire Risk
+__________________
+Select |fireriskbtn| option from the |forest1| service indicator menu-bar fill in the parameters required and clck on the |submit| button
+
+.. figure:: ../_static/Images/Service/firerisk1.png
+    :width: 253
+    :align: center
+    :height: 445
+    :alt: Forest carbon emission
+    :figclass: align-center
+
+    Forest carbon emission pop-up
+
 
 Computing Forest Fires
 _______________________
 
-1. Select the FOREST FIRES option from the service menu as shown below
+1. Select the |firebtn| option from the |forest1| service indicator menu-bar
 
-.. figure:: ../_static/Images/Service/forestfireselection.png
-    :width: 449
-    :align: center
-    :height: 47
-    :alt: register
-    :figclass: align-center
-
-    Selecting the Forest-fires option from the service menu.
-
-2. On the output layer options, select the pre and post fire dates using the calender
+2. On the layer options, select the pre and post fire dates using the calender
 
 .. figure:: ../_static/Images/Service/calender.png
-    :width: 435
+    :width: 233
     :align: center
-    :height: 475
+    :height: 358
     :alt: seting the pre- and post-fire dates
     :figclass: align-center
 
     Selecting the date from the calender tool.
 
-.. figure:: ../_static/Images/Service/firedates.png
-    :width: 438
+.. figure:: ../_static/Images/Service/fire2.png
+    :width: 235
     :align: center
-    :height: 156
+    :height: 282
     :alt: register
     :figclass: align-center
 
@@ -88,9 +89,9 @@ _______________________
 3. Choose the platform to use to compute the burnt area
 
 .. figure:: ../_static/Images/Service/platform.png
-    :width: 229
+    :width: 235
     :align: center
-    :height: 216
+    :height: 328
     :alt: register
     :figclass: align-center
 
@@ -110,3 +111,12 @@ The output showing the extent and severity of the fire will be as shown below
 
 .. toctree::
    :maxdepth: 3
+
+
+.. |drowpolygon| image:: ../_static/Images/Service/drawpolygon.png
+.. |forestloss| image:: ../_static/Images/Service/forestlossbtn.png
+.. |firebtn| image:: ../_static/Images/Service/firebtn.png
+.. |submit| image:: ../_static/Images/Service/submit.png
+.. |fireriskbtn| image:: ../_static/Images/Service/fireriskbtn.png
+.. |forest1| image:: ../_static/Images/Service/forest1.png
+.. |carbonbtn| image:: ../_static/Images/Service/carbonbtn.png

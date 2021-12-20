@@ -38,7 +38,7 @@ Forest Carbon Emission
 _______________________
  Select |carbonbtn| option from the |forest1| service indicator menu-bar fill in the parameters required and clck on the |submit| button
 
-.. figure:: ../_static/Images/carbon1.png
+.. figure:: ../_static/Images/Service/carbon1.png
     :width: 253
     :align: center
     :height: 445
@@ -51,7 +51,7 @@ Forest Fire Risk
 __________________
 Select |fireriskbtn| option from the |forest1| service indicator menu-bar fill in the parameters required and clck on the |submit| button
 
-.. figure:: ../_static/Images/firerisk1.png
+.. figure:: ../_static/Images/Service/firerisk1.png
     :width: 253
     :align: center
     :height: 445
@@ -118,3 +118,5 @@ The output showing the extent and severity of the fire will be as shown below
 .. |firebtn| image:: ../_static/Images/Service/firebtn.png
 .. |submit| image:: ../_static/Images/Service/submit.png
 .. |fireriskbtn| image:: ../_static/Images/Service/fireriskbtn.png
+.. |forest1| image:: ../_static/Images/Service/forest1.png
+.. |carbonbtn| image:: ../_static/Images/Service/carbonbtn.png
