@@ -11,13 +11,38 @@ The maps are produced from time-series analysis of Landsat images characterizing
 
 Forest Carbon Emission
 ________________________
+The UNFCCC framework on REDD+ (Reducing Emissions from Deforestation and Forest Degradation in Developing countries) encourages developing countries to take actions for reducing emissions in the forestry sector. For receiving performance-based payments countries need – among others – to implement national forest monitoring systems and mechanisms for Measuring, Reporting and Verification (MRV) of achievements in avoiding deforestation and forest degradation and in related emission savings.
 
+Estimating emissions from deforestation or forest degradation may be based on Activity Data (AD) and on Emission Factors (EF): 
+
+.. figure:: ../_static/Images/Service/ef.png
+    :width: 235
+    :align: center
+    :height: 50
+    :alt: Forest fires methodology
+    :figclass: align-center
+
+    Emission factor equation
+
+Where; `AD` is the change in forest area or in area of degraded forest (in ha) and EF = emissions expressed in tC/ha.
 
 
 Forest Fire Risk
 _________________
+The methodological approach that will be adapted to highlight susceptibility to fire integrates Land cover, temperature, slope, proximity to road, proximity to settlement, elevation and Aspect as depicted in the flow diagram below:
+
+.. figure:: ../_static/Images/Service/fireriskflow.png
+    :width: 618
+    :align: center
+    :height: 459
+    :alt: Forest fires methodology
+    :figclass: align-center
+
+    Fire risk flow
 
 
+The Land cover layer is used to segment the different vegetation types within the forests acting as fuel load. Surface temperature measures the possibility of ignition. Digital elevation model is employed to derive the probability of spread and sustainability of fire. Additionally, the anthropogenic data is put in place to satiate human induced aspects of fire. 
+weighting analysis is applied to combine the individual layers and derive a composite layer depicting susceptibility to forest fire.
 
 Forest Fires
 _____________
